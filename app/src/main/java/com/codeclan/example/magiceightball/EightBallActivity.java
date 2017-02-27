@@ -25,6 +25,8 @@ public class EightBallActivity extends AppCompatActivity {
     }
 
     public void onShakeButtonClicked(View button){
+        String question = questionEditText.getText().toString();
 
+        Log.d("EightBallClick", question);
     }
 }
