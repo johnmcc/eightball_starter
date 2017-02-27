@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">MagicEightBall</string>
+    <string name="app_name">Father Ted Ball</string>
+    <string name="developer_name">John</string>
+    <string name="question">Enter your question</string>
+    <string name="shake">Ask Father Jack</string>
 </resources>

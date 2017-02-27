@@ -11,4 +11,27 @@
     tools:context="com.codeclan.example.magiceightball.EightBallActivity"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/question_edittext"
+        android:hint="@string/question"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onShakeButtonClicked"
+        android:id="@+id/shake_btn"
+        android:text="@string/shake"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/answer_text"
+        android:textSize="30dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
